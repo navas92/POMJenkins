@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestCase]" parallel="tests">
+  <test thread-count="5" name="Leads(failed)" parallel="tests">
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCase.MergeLead">
+        <methods>
+          <include name="LeadMerge"/>
+        </methods>
+      </class> <!-- testCase.MergeLead -->
+      <class name="testCase.CreateLead">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- testCase.CreateLead -->
+    </classes>
+  </test> <!-- Leads(failed) -->
+</suite> <!-- Failed suite [TestCase] -->

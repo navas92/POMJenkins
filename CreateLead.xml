@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateLeadInvo">
+  <test name="Test" time-out="120000">
+    <classes>
+      <class name="testCase.CreateLead"/>
+      <class name="testCase.MergeLead"/>
+       <class name="testCase.CreateLead"/>
+      <class name="testCase.MergeLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CreateLeadInvo -->

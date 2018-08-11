@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53288" started-at="2018-08-11T11:40:55Z" finished-at="2018-08-11T11:41:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53288" started-at="2018-08-11T11:40:55Z" finished-at="2018-08-11T11:41:48Z">
+      <class name="testCasesPOM.TC001_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="beforeSuite" is-config="true" duration-ms="2658" started-at="2018-08-11T11:40:53Z" finished-at="2018-08-11T11:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-11T11:40:55Z" finished-at="2018-08-11T11:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-08-11T11:40:55Z" finished-at="2018-08-11T11:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="beforeMethod" is-config="true" duration-ms="9791" started-at="2018-08-11T11:40:57Z" finished-at="2018-08-11T11:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="createLead" duration-ms="17949" started-at="2018-08-11T11:41:07Z" data-provider="getData" finished-at="2018-08-11T11:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CPT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rohithkumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[962258666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="afterMethod" is-config="true" duration-ms="711" started-at="2018-08-11T11:41:25Z" finished-at="2018-08-11T11:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="beforeMethod" is-config="true" duration-ms="6288" started-at="2018-08-11T11:41:25Z" finished-at="2018-08-11T11:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="createLead" duration-ms="16066" started-at="2018-08-11T11:41:32Z" data-provider="getData" finished-at="2018-08-11T11:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Renault]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Navas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[962258666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="afterMethod" is-config="true" duration-ms="672" started-at="2018-08-11T11:41:48Z" finished-at="2018-08-11T11:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCasesPOM.TC001_CreateLead@ac1102]" name="afterSuite" is-config="true" duration-ms="557" started-at="2018-08-11T11:41:49Z" finished-at="2018-08-11T11:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCasesPOM.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
